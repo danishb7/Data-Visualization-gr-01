@@ -1,3 +1,4 @@
+// import * as d3Collection from 'd3-collection';
 d3.csv("Olympics.csv").then(function(dataset){
 
     var dimensions = {
@@ -39,7 +40,7 @@ d3.csv("Olympics.csv").then(function(dataset){
             .key(d => d.Year)
             .key(d => d.Sex)
             .rollup(values => values.length)
-            .entries(data);
+            .entries(dataset);
 
 
     // const countbygender = d3.nest()
