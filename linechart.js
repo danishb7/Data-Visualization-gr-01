@@ -1,4 +1,4 @@
-d3.csv("Participation.csv").then(function(dataset){
+d3.csv("ParticipationFull.csv").then(function(dataset){
 
     dataset.forEach(function(d){
 
@@ -85,10 +85,11 @@ d3.csv("Participation.csv").then(function(dataset){
         .attr("y",40)
         .attr("transform", "rotate(-90)")
         .attr("text-anchor","middle")
-        .text("Number of Athletes");
+        .text("Number of Athletes")
+        .attr("font-weight","bold");
 
     const legend = svg.append("g")
-        .attr("transform", `translate(${dimensions.width - 150}, 20)`);
+        .attr("transform", `translate(${dimensions.width - 160}, 20)`);
 
     legend.append("rect")
         .attr("width", 10)
@@ -96,20 +97,19 @@ d3.csv("Participation.csv").then(function(dataset){
         .attr("fill", "blue");
 
     legend.append("text")
-        .attr("x", 20)
+        .attr("x", 15)
         .attr("y", 10)
         .text("Male");
 
     legend.append("rect")
-        .attr("x", 80)
+        .attr("x", 60)
         .attr("width", 10)
         .attr("height", 10)
         .attr("fill", "#DF077D");
 
     legend.append("text")
-        .attr("x", 100)
+        .attr("x", 75)
         .attr("y", 10)
         .text("Female");
-
 
 })
