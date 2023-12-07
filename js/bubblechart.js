@@ -3,7 +3,7 @@ Bubblechart = (function() {
     let svg;
 
     const minBubbleSize = 15,
-        maxBubbleSize = 70,
+        maxBubbleSize = 80,
         offsetBetweenBubbles = 3,
         width = $("#bubblechart").width(),
         height = $("#bubblechart").height();
