@@ -1,0 +1,43 @@
+#timeslider {
+    position:absolute;
+    width: 95%;
+    height: 5%;
+    left: 3.1%;
+    /* top: 5%; */
+    bottom: 0%;
+}
+
+#timeslider .ticks text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#timeslider .track,
+#timeslider .track-inset,
+#timeslider .track-overlay {
+    stroke-linecap: round;
+}
+
+#timeslider .track {
+    stroke:rgb(146, 207, 206);
+    stroke-opacity: 0.3;
+    stroke-width: 10px;
+}
+
+#timeslider .track-inset {
+    stroke: #abccdd;
+    stroke-width: 2px;
+}
+
+#timeslider .track-overlay {
+    pointer-events: stroke;
+    stroke-width: 50px;
+    stroke: transparent;
+}
+
+#timeslider .handle {
+    fill: rgb(109, 130, 199);
+    stroke: var(--main-dark-color);
+    stroke-opacity: 0.5;
+    stroke-width: 1px;
+}

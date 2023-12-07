@@ -1,0 +1,36 @@
+#worldmap {
+    position: relative;
+    width: 55%;
+    height: 55%;
+    float: left;
+    background: rgb(157, 217, 229);
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+#worldmap svg {
+    border-radius: 15px;
+    /* border: 2px solid; */
+    border-color: #000000;
+}
+
+#worldmap .country {
+    stroke-width: 1px;
+}
+
+
+#worldmap .hidden { 
+    display: none; 
+}
+
+#worldmap div.tooltip {
+    font-size: 12px;
+    line-height: 1;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px;
+    background: var(--main-dark-trans-color); 
+    color: #fff;
+    border-radius: 4px;
+    opacity: 1; 
+    position: absolute;
+}
