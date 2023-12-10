@@ -1,31 +1,3 @@
-The proposal document should address the following points. Use these 
-points as headers in your document.
-Basic Info. The project title, your names, e-mail addresses, CIDs, a 
-link to the project repository.
-Background and Motivation. Discuss your motivations and reasons 
-for choosing this project, especially any background or research 
-interests that may have influenced your decision.
-Project Objectives. Provide the primary questions you are trying to 
-answer with your visualization. What would you like to learn and 
-accomplish? Ideally you should have 1 question per visualization 
-(i.e., at least 3 questions)
-Data. From where and how are you collecting your data? Provide a 
-link to your data sources.
-Data Processing. Do you expect to do substantial data cleanup? 
-What quantities do you plan to derive from your data? How will data
-processing be implemented?
-Visualization Design. How will you display your data? You are 
-expected to create a dashboard with at least 3 visualizations. 
-Develop three alternative prototypes for each visualization. 
-Describe each prototype using the terminology learned in class. 
-Create one final dashboard that incorporates the best of your 
-designs and justify your choices (why you picked those among all 
-prototypes). All graphs should be created in Tableau when possible.
-Must-Have Features. List the features without which you would 
-consider your project to be a failure.
-Optional Features. List the features which you consider to be nice to
-have, but not critical.
-Project Schedule. Make sure that you plan your work so that you 
-can avoid a big rush right before the final project deadline, and 
-delegate different modules and responsibilities among your team 
-members. Write this in terms of weekly deadlines.
+The goal of the Olympic data visualization project is to create detailed, interactive representations that allow users to explore and communicate insights from past Olympic data. The project is introduced, along with its goals, objectives, and data sources, in this overview. The project's primary focus is the Olympic Games, a choice made because of the event's lengthy history and widespread influence. It provides a singular chance to explore a broad dataset and find patterns and trends across years, nations, sports, and events. The team combines a variety of viewpoints and talents because its members have varying interests in sports analytics and data visualization. All resources, including code, data, and documentation, are centrally located in the project repository, which is referenced throughout the page. 
+The main goal is to provide answers to important concerns regarding the Olympics, such how medal distribution trends have changed over time, how various sports have changed over time, and how national performances have changed. There will be at least three main questions answered, each with its own unique graphics. The information comes from two CSV files: one lists the names and codes of the participating nations and the other lists the events, sports, and medal totals from the Summer Olympics. These files offer a thorough history record that is necessary for the study. The project is organized, with team members assigned specific tasks and weekly deadlines. This method prevents last-minute rushing and guarantees a balanced workload and timely completion. The paper also includes a list of characteristics that are not necessary but are nevertheless important for the project's success. 
+In conclusion, the goal of this Olympic data visualization project is to provide perceptive, captivating, and interactive representations that present fresh angles on the historical information from the Olympic Games. The initiative aims to create an engaging account of Olympic history by combining creative design with thorough data analysis.
