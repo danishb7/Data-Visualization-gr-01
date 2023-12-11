@@ -100,8 +100,7 @@ function updateDashboardState(nextState, initialUpdate = false) {
             eventFilter = selectedNode.Event;
             currentFilterKeyword = "Event";
             $('#statelabel').html(
-                // countriesSection  + " on <strong>" + eventFilter + "</strong>" + yearsText
-                "Countries: " + countriesSection  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + "Event:  <strong>" + eventFilter + "</strong>" + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspYears: <strong>" + yearsText + "</strong>"
+            "Countries: " + countriesSection  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + "Event:  <strong>" + eventFilter + "</strong>" + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspYears: <strong>" + yearsText + "</strong>"
             );
             $('#back-subtitle').text(disciplineFilter);
             break;
@@ -180,7 +179,6 @@ function countrySelectionToString() {
     let string = "",            
         counter = 0;
 
-    // Cicle through the countries in countrySelection.
     countrySelection.forEach((element, i) => {
 		if(element === null) {
             return;

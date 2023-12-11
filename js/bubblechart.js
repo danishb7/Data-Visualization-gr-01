@@ -133,12 +133,7 @@ Bubblechart = (function() {
                 .attr("cx", d => d.x)
                 .attr("cy", d => d.y)
                 .attr("r", d => radiusScale(d.TotalMedals))
-                // .attr("fill", d => eventsColors(Math.random()))
-                // .attr("fill", d=> bubblecolor_([d.TotalMedals]))
-                // .attr("fill", () => colors[Math.floor(Math.random() * colors.length)])
                 .attr("fill", (d, i) => colors[i % colors.length])
-                // .attr("fill", d => colors[Math.round(radiusScale2(d.TotalMedals))])
-                // .attr("fill", d => bubblecolor_[Math.round(radiusScale2(d.TotalMedals))])
                 .attr("stroke", d => getCSSColor('--main-dark-color'))
                 .attr("stroke-width", "2")
                 .on('mouseover', function(d) {

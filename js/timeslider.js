@@ -23,10 +23,8 @@ var TimeSlider = (function(){
 
     let selectedHandle = null;
 
-    // generates the timeSlider in the vis
     var initialize = function() {
 
-        // make an SVG Container
         slider.append("line")
             .attr("class", "track")
             .attr("x1", xScale.range()[0])
@@ -46,12 +44,9 @@ var TimeSlider = (function(){
                     moveHandle(target);
                 })
                 .on("end", d => {
-                    // reset radius of selected handle
                     handle1.attr("r", 5);
                     handle2.attr("r", 5);
                     
-                    
-                    // if both handles are the same year make them bigger
                     if(handle1.attr("cx") == handle2.attr("cx")){
                         handle1.attr("r", 8);
                         handle2.attr("r", 8);
@@ -59,7 +54,6 @@ var TimeSlider = (function(){
 
                     selectedHandle = null;
 
-                    // update global time variable
                     (Math.round(handle1.attr("cx")) <= Math.round(handle2.attr("cx")) ?
                         changeTimeline(xScale.invert(handle1.attr("cx")), xScale.invert(handle2.attr("cx"))) :
                         changeTimeline(xScale.invert(handle2.attr("cx")), xScale.invert(handle1.attr("cx")))
@@ -82,15 +76,11 @@ var TimeSlider = (function(){
             .attr("class", "handle")
             .attr("r", 5)
             .attr("cx", xScale(0));
-            // .attr("width", 16)
-            // .attr("height", 16);
     
         const handle2 = slider.insert("circle", ".track-overlay")
             .attr("class", "handle")
             .attr("r", 5)
             .attr("cx", xScale(27));
-            // .attr("width", 16)
-            // .attr("height", 16);
         
         function moveHandle(target){
             selectedHandle.attr("r", 8)
