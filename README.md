@@ -1,9 +1,140 @@
-Dashboard - https://danishb7.github.io/Data-Visualization-gr-01/
-Video - https://youtu.be/xKVKwDKlZ-E
+# Data Visualization
+
+This project focuses on creating interactive and visually appealing data visualizations using modern web technologies like JavaScript, CSS, and HTML. The aim is to provide insightful representations of data to make analysis easier and more intuitive.
+
+---
+
+## Table of Contents
+
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contribution Guidelines](#contribution-guidelines)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## About the Project
+
+This project is part of our group's efforts to explore and demonstrate the power of data visualization. By leveraging JavaScript for interactivity, CSS for styling, and HTML for structure, this project aims to create dynamic visualizations that are both informative and aesthetically pleasing.
+
+Possible use cases include:
+
+- Understanding large datasets through charts and graphs.
+- Creating dashboards for real-time data analysis.
+- Building educational tools for data storytelling.
+
+---
+
+## Features
+
+- **Interactive Charts**: Create bar, line, pie, and other types of charts to explore data dynamically.
+- **Customizable Styling**: Easily tweak the appearance of visualizations using CSS.
+- **Responsive Design**: Ensure visualizations look great on all devices.
+- **Lightweight and Fast**: Optimized for performance using vanilla JavaScript and minimal dependencies.
+
+---
+
+## Image Preview
+
+Here is a preview of the project's dashboard:
 
 ![image](https://github.com/user-attachments/assets/c4e4a034-a679-4b94-829a-ad695e2ab786)
+---
+
+## Tech Stack
+
+The primary technologies used in this project are:
+
+- **JavaScript**: The backbone for interactivity and dynamic content.
+- **CSS**: For styling and layout of visualizations.
+- **HTML**: Provides the structural foundation for the web pages.
+
+---
+
+## Getting Started
+
+To get a local copy of the project up and running, follow these steps.
+
+### Prerequisites
+
+You will need the following installed on your system:
+
+- [Node.js](https://nodejs.org/) (Recommended for running a local development server)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/danishb7/Data-Visualization-gr-01.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Data-Visualization-gr-01
+   ```
+
+3. Install dependencies (if any):
+   ```bash
+   npm install
+   ```
+
+4. Start the development server (if applicable):
+   ```bash
+   npm start
+   ```
+
+---
+
+## Usage
+
+1. Open the `index.html` file in your web browser to view the visualizations.
+2. Use the interactive controls (if available) to explore the data.
+3. Modify the datasets or styles to customize the visualizations.
 
 
-The goal of the Olympic data visualization project is to create detailed, interactive representations that allow users to explore and communicate insights from past Olympic data. The project is introduced, along with its goals, objectives, and data sources, in this overview. The project's primary focus is the Olympic Games, a choice made because of the event's lengthy history and widespread influence. It provides a singular chance to explore a broad dataset and find patterns and trends across years, nations, sports, and events. The team combines a variety of viewpoints and talents because its members have varying interests in sports analytics and data visualization. All resources, including code, data, and documentation, are centrally located in the project repository, which is referenced throughout the page. 
-The main goal is to provide answers to important concerns regarding the Olympics, such how medal distribution trends have changed over time, how various sports have changed over time, and how national performances have changed. There will be at least three main questions answered, each with its own unique graphics. The information comes from two CSV files: one lists the names and codes of the participating nations and the other lists the events, sports, and medal totals from the Summer Olympics. These files offer a thorough history record that is necessary for the study. The project is organized, with team members assigned specific tasks and weekly deadlines. This method prevents last-minute rushing and guarantees a balanced workload and timely completion. The paper also includes a list of characteristics that are not necessary but are nevertheless important for the project's success. 
-In conclusion, the goal of this Olympic data visualization project is to provide perceptive, captivating, and interactive representations that present fresh angles on the historical information from the Olympic Games. The initiative aims to create an engaging account of Olympic history by combining creative design with thorough data analysis.
+---
+
+## Contribution Guidelines
+
+We welcome contributions to improve this project! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature/bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add a new feature"
+   ```
+4. Push the branch to your forked repository:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request to the main repository.
+
+Please follow the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/) when contributing.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+For questions or feedback, feel free to reach out:
+
+- **Maintainer**: Danish B
+- **GitHub**: [danishb7](https://github.com/danishb7)
+
+---
+
+Thank you for visiting the repository! We hope you find this project useful and insightful.
