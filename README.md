@@ -130,10 +130,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or feedback, feel free to reach out:
+For questions or feedback, feel free to reach out to the maintainers:
 
-- **Maintainer**: Danish B, Shubham Narale, Gaurav Patel
-- **GitHub**: [danishb7](https://github.com/danishb7)
+- **Danish B**: [GitHub](https://github.com/danishb7)
+- **Gaurav Patel**: [GitHub](https://github.com/GauravP1101)
+- **Shubham Narale**: [GitHub](https://github.com/shubhamdevjs)
 
 ---
 
