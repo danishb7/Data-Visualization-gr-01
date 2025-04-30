@@ -14,7 +14,6 @@ This project focuses on creating interactive and visually appealing data visuali
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -122,11 +121,6 @@ Please follow the [Contributor Covenant Code of Conduct](https://www.contributor
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## Contact
 
