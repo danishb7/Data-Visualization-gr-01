@@ -133,8 +133,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or feedback, feel free to reach out to the maintainers:
 
 - **Danish B**: [GitHub](https://github.com/danishb7)
-- **Gaurav Patel**: [GitHub](https://github.com/GauravP1101)
-- **Shubham Narale**: [GitHub](https://github.com/shubhamdevjs)
+- **Gaurav P**: [GitHub](https://github.com/GauravP1101)
+- **Shubham N**: [GitHub](https://github.com/shubhamdevjs)
 
 ---
 
